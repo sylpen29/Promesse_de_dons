@@ -1,0 +1,70 @@
+
+.bandeau{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.image{
+    border-radius: 20px;
+}
+
+.titre{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    font-family: 'Aller';
+    src: url(/typo/Aller_BdIt.ttf);
+    text-align: center;
+    width: 500px;
+    text-shadow:#bbe5ff 0 -1px 0,
+    #0098f8 1px 1px 0,
+    #018de6 2px 2px 0,
+    #006fb5 3px 3px 0,
+    #005386 4px 4px 0,
+    #004874 5px 5px 0,
+    #333 5px 5px 10px;
+    color:#26abff;
+      
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    list-style: none;
+
+} 
+
+.navbar a{
+    text-decoration: none;
+    display: flex;
+}
+
+
+p{
+    font-family: 'Aller';
+    src: url(/typo/Aller_Lt.ttf);
+    font-size:  24px;
+    text-align: center;
+}
+  
+.red{
+    color:red;
+}
+
+form{
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column; 
+    background-color: darkgray; 
+    
+}
+
+#bouton{
+    font-weight: bold;
+}
+

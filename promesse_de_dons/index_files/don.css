@@ -1,0 +1,51 @@
+
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    position: absolute;
+    font-family: 'Aller';
+    src: url(/typo/Aller_BdIt.ttf);
+    font-size: 1em;
+    text-align: center;
+   
+    
+}
+
+
+p{
+    font-family: 'Aller';
+    src: url(/typo/Aller_Lt.ttf);
+    font-size:  24px;
+    text-align: center;
+}
+  
+.bandeau{
+    position: relative;
+    margin:auto;
+    text-align: center;
+}
+
+.image{
+    font-size: 20px;
+}
+
+form{
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column; 
+    background-color: darkgray; 
+    
+}
+
+#bouton{
+    font-weight: bold;
+}
+
