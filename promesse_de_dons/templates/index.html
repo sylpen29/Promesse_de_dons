@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+    
+    <h1 class="titre">4 pat'</h1>
+    <div class="bandeau">
+        <img class="image" src="{{url_for('static', filename='images/chat.jpg')}}" alt="chat">   
+    </div>
+    
+        <p>4 pat' est une association de protection pour les animaux.<br>
+            <span class="red">Cette année encore ils ont besoin de vous</span> </p>
+        <p> En effet, s'occuper des animaux qui sont en refuges demande de l'investissement humain mais aussi
+            financier, que ce soit au niveau des soins, des vaccins, de la nourriture ou bien même des couvertures
+            afin de subvenir à leurs besoins.</p>
+        <p> Si vous aussi vous souhaitez contribuer à améliorer la qualité de vie des animaux vous pouvez
+            faire don en remplissant le formulaire <a href="{{ url_for('ajouter') }}">ici</a></p>
+
+        <!-- <ul>
+            {% for form in form_don %}
+            <li> <a href="{{url_for('donnateur', id= form['id_form'])}}"> {{form['prenom']}} {{form['nom']}} </a></li>
+            {% endfor %}
+        </ul> -->
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Formulaire de dons{% endblock %}
+{% block content %}
+
+    <div class="form">
+        <form method="post" action="{{url_for('add')}}">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom">
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse">
+            <label for="mail">Email :</label>
+            <input type="email" id="mail" name="email">
+            <label for="don">Somme promise :</label>
+            <textarea id="don" name="somme_promise"></textarea>
+            <label for="conditions" id="label"><input type="checkbox" required>Je reconnais avoir pris connaissance des conditions du don</label>
+            <input type="submit" id="bouton" value="Envoyer un don" >
+    </div>
+        </form>
+{% endblock %}
